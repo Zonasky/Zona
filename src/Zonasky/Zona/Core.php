@@ -20,6 +20,7 @@ $this->getResourceFolder("scripts")->getChildren();
   // for developers. to call this API: replace("%player%, $this->getPlayer(), $string);
 }
 
-
+private function player(string $code) : bool {
+  return replace("%player%" , $this->getPlayer() , $code);
   }
   
