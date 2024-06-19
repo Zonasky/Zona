@@ -7,7 +7,14 @@ use pocketmine\Player;
 //TODO: 1.0.5: add reload commands and whatnot
 
 Class Core extends PluginBase {
+const errortype = 
+  [
+1 = "Syntax Error",
+  2 = "Argument should return bool, bool not found",
+  3 = "sky was here, you just suck at coding if you get this",
 
+  ];
+return $errortype;
 
   private function getscripts(string $scripts) : bool {
 $this->getResourceFolder("scripts")->getChildren();
