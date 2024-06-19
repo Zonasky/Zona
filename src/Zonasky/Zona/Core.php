@@ -17,7 +17,7 @@ $this->getResourceFolder("scripts")->getChildren();
 
   private function replace(string $string) : bool {
   return $this->str_replace()
-  
+  // for developers. to call this API: replace("%player%, $this->getPlayer(), $string);
 }
 
 
