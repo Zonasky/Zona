@@ -5,7 +5,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Player;
 
 //TODO: 1.0.5: add reload commands and whatnot
-
+// CODE REWRITE INCOMING
 Class Core extends PluginBase {
 const errortype = 
   [
