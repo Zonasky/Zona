@@ -23,4 +23,9 @@ $this->getResourceFolder("scripts")->getChildren();
 private function player(string $code) : bool {
   return replace("%player%" , $this->getPlayer() , $code);
   }
-  
+
+private function broadcast(string $str) : bool {
+  return replace("send new message to server: " , $this->getServer()->broadcastMessage($str) , $code);
+}
+
+}
