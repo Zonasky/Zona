@@ -1,4 +1,0 @@
-send message to server: 
- "Welcome to the Server %player%"
-
- give %player% steak 64

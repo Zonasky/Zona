@@ -1,0 +1,2 @@
+on %player$ first join:
+ send %player% "Welcome to the Server"
